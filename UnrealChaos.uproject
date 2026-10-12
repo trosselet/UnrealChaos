@@ -1,35 +1,31 @@
 {
-	"FileVersion": 3,
-	"EngineAssociation": "{F3580061-4F2C-A642-8E63-CB9CB80D1708}",
-	"Category": "",
-	"Description": "",
-	"Modules": [
-		{
-			"Name": "UnrealChaos",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine",
-				"AIModule",
-				"UMG"
-			]
-		}
-	],
-	"Plugins": [
-		{
-			"Name": "ModelingToolsEditorMode",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "StateTree",
-			"Enabled": true
-		},
-		{
-			"Name": "GameplayStateTree",
-			"Enabled": true
-		}
-	]
+  "FileVersion": 3,
+  "EngineAssociation": "5.6",
+  "Category": "",
+  "Description": "",
+  "Modules": [
+    {
+      "Name": "UnrealChaos",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "ModelingToolsEditorMode",
+      "Enabled": true
+    },
+    {
+      "Name": "StateTree",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayStateTree",
+      "Enabled": true
+    }
+  ],
+  "TargetPlatforms": [],
+  "AdditionalRootDirectories": [],
+  "AdditionalPluginDirectories": [],
+  "EpicSampleNameHash": ""
 }

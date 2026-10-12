@@ -18,8 +18,12 @@ public class UnrealChaos : ModuleRules
 			"StateTreeModule",
 			"GameplayStateTreeModule",
 			"UMG",
-			"Slate"
-		});
+			"Slate",
+            "GeometryCollectionEngine",
+			"FieldSystemEngine",
+			"PhysicsCore",
+            "Niagara"
+        });
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 
